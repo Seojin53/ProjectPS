@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>치타즈_상처</title>
+        <style>
+            .mn{float: left;}
+            .pc:after{content: ''; display: block; clear: both;}
+            .st{font-size: small;}
+        </style>
+        <script>
+            function STV(id) {
+                var element = document.getElementById(id);
+                if(element) {
+                    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+                }
+            }
+            function BC(id){
+                var bc = document.getElementById(id);
+                if(bc) {
+                    bc.style.backgroundColor='skyblue';
+                }
+            }
+        </script>
+      </head>
+      
+      <body>
+        <h1>두통약 이름 검색</h1>
+        &nbsp;<input type="text" placeholder = '약 이름을 적어주세요' id='MN' size="42" onkeydown="if (event.key === 'Enter') {STV(this.value); BC(this.value);} ">
+        <hr>
+
+        <div class = "pc" id="마데카솔">
+            <p>마데카솔</p>
+            <div class="mn"><img src="img/마데카솔.png" alt="마데카솔 사진" width="100" height="80"></div>
+            <div class="mn st">-화상 혹은 상처난 곳에 바르시오.<br>-발랐음에도 상처를 치료해줄 사람어디없나<br>-대충 길게 썼을 경우에는 줄바꿈이 일어나는지 아니면 사진 아래로 내려가는 지 테스트를 하기 위해 적는 공간</div>
+        </div>
+        <div class = "pc" id="타이레놀">
+            <p>후시딘</p>
+            <div class="mn"><img src="img/타이레놀.png" alt="타이레놀 사진" width="100" height="80"></div>
+            <div class="mn st">-두통이 있는 경우 복용.<br><!--br은 엔터와 같은 명령어-->-마지막 복용 이후 4시간 동안은 복용 자제.</div>
+        </div>
+        <div class = "pc" id = "감기약">
+            <p>바세린</p>
+            <div class="mn"><img src="img/이것도치타.png" alt="타이레놀 사진" width="100" height="80"></div>
+            <div class="mn st">-감기가 있으면 먹으세요</div>
+        </div>
+        <div class = "pc" id = "김민조">
+            <p>포비딘(빨간약)</p>
+            <div class="mn"><img src="https://tse3.mm.bing.net/th?id=OIP.IgtYKHHxY2MmWqfsgDweUwHaEO&pid=Api&P=0&h=220" alt="치타 사진" width="100" height="80"></div>
+            <div class="mn st">-치타1</div>
+        </div>
+        <div class = "pc" id = "고건무">
+            <p>버물리</p>
+            <div class="mn"><img src="https://tse3.mm.bing.net/th?id=OIP.IgtYKHHxY2MmWqfsgDweUwHaEO&pid=Api&P=0&h=220" alt="치타 사진" width="100" height="80"></div>
+            <div class="mn st">-치타2</div>
+        </div>
+        <div class = "pc" id = "송한승">
+            <p>송한승</p>
+            <div class="mn"><img src="https://tse3.mm.bing.net/th?id=OIP.IgtYKHHxY2MmWqfsgDweUwHaEO&pid=Api&P=0&h=220" alt="치타 사진" width="100" height="80"></div>
+            <div class="mn st">-치타3</div>
+        </div>
+        <div class = "pc" id = "정해인">
+            <p>정해인</p>
+            <div class="mn"><img src="https://tse3.mm.bing.net/th?id=OIP.IgtYKHHxY2MmWqfsgDweUwHaEO&pid=Api&P=0&h=220" alt="치타 사진" width="100" height="80"></div>
+            <div class="mn st">-치타4</div>
+        </div>
+        <div class = "pc" id = "송한승">
+            <p>송한승</p>
+            <div class="mn"><img src="https://tse3.mm.bing.net/th?id=OIP.IgtYKHHxY2MmWqfsgDweUwHaEO&pid=Api&P=0&h=220" alt="치타 사진" width="100" height="80"></div>
+            <div class="mn st">-치타3</div>
+        </div>
+      </body>
+</html>
